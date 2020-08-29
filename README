@@ -1,0 +1,14 @@
+Raspberry pi4 with buildroot
+
+# prepare SD card with boot image:
+
+#df -h
+#sudo time dd bs=1m if=/path/to/sdcard.img of=/dev/diskname
+
+
+
+
+
+
+
+

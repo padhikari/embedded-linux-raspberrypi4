@@ -1,0 +1,11 @@
+steps to set up serial-usb in mac
+1) Get pl2303 for your mac, for catalina 10.15 
+    #curl "http://www.prolific.com.tw/UserFiles/files/PL2303_Mac%20OSX%20Drv_V1_6_2_20190723(2).rar" -o "pl2303.zip"
+2) #unrar x pl2303.zip 
+ if unrar is not installed intalled using 
+    #brew install unrar
+    #unrar x pl2303.zip 
+3) You must get file with .pkg
+    #sudo open PL2303_Mac\ OSX\ Drv_V1.6.2_20190723.pkg 
+4) sudo screen /dev/usbserial-name 115200
+
